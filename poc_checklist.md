@@ -35,8 +35,7 @@
 
 **Blockers/Issues:**
 ```
-_____________________________________________
-_____________________________________________
+None
 ```
 
 ---
@@ -47,8 +46,8 @@ _____________________________________________
 
 **Morning Session: Clone Repository (1 hour)**
 - [X] Create projects directory
-- [X] Clone DeepWiki: `git clone https://github.com/AsyncFuncAI/deepwiki-open.git`
-- [X] Navigate to directory: `cd deepwiki-open`
+- [X] Clone DeepWiki
+- [X] Navigate to directory: `cd prestamype-deepwiki-open`
 - [X] Review repository structure
 - [X] Create `.env` file
 - [X] Add Google API key to `.env`
@@ -62,34 +61,28 @@ _____________________________________________
 - [X] Create SSH directory: `mkdir -p ./ssh`
 - [X] Generate SSH key: `ssh-keygen -t ed25519 -f ./ssh/deepwiki_connect_key`
 - [X] Display public key: `cat ./ssh/deepwiki_connect_key.pub`
-- [ ] Add public key to GitHub/GitLab as deploy key
-- [ ] Create known_hosts: `ssh-keyscan github.com > ./ssh/known_hosts`
-- [ ] Update `docker-compose.yml` to mount SSH keys
-- [ ] Test SSH access: `ssh -T git@github.com -i ./ssh/deepwiki_deploy_key`
+- [X] Add public key to GitHub/GitLab as deploy key
+- [X] Create known_hosts: `ssh-keyscan github.com > ./ssh/known_hosts`
+- [X] Update `docker-compose.yml` to mount SSH keys
+- [X] Test SSH access: `ssh -T git@github.com -i ./ssh/deepwiki_deploy_key`
 
-**Alternative: Personal Access Token**
-- [ ] Generate PAT in GitHub/GitLab
-- [ ] Add GIT_USERNAME to `.env`
-- [ ] Add GIT_TOKEN to `.env`
-- [ ] Test repository access with token
 
 **End of Day Verification**
-- [ ] `.env` file created and configured
-- [ ] Repository access configured (SSH or PAT)
-- [ ] Access tested successfully
-- [ ] Configuration documented
+- [X] `.env` file created and configured
+- [X] Repository access configured (SSH )
+- [X] Access tested successfully
+- [X] Configuration documented
 
 **Selected Repository for Testing:**
 ```
-Name: _____________________________________
-URL: ______________________________________
-Estimated files: __________________________
+Name: prestamype-api
+URL: https://github.com/Info-Prestamype/prestamype-api
+Total files: 2856
 ```
 
 **Blockers/Issues:**
 ```
-_____________________________________________
-_____________________________________________
+None
 ```
 
 ---
